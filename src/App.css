@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  background-color: black;
+  font-family: 'Helvetica';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding: 15px;
+}
+
+.intro {
+    background-color: black;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.features {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 50px;
+    line-height: 22px;
+    text-align: center;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    text-align: center;
+    list-style: none;
+}
+ul  li {
+    padding: 2px 5px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 120px;
+}
+
+.button {
+    background: linear-gradient(0deg, rgb(180,143,90) 0%, rgb(255,188,53) 100%);
+    color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.github-text {
+    text
+    a {
+      color: white;
+      text-transform: uppercase;
+    }
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.App-header {
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
