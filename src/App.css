@@ -25,6 +25,15 @@
     text-align: center;
 }
 
+.latest-release {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+    line-height: 15px;
+    text-align: center;
+}
+
 ul {
     margin:0;
     padding:0;
@@ -59,7 +68,7 @@ ul  li {
 
 a, a:active, a:visited {
     text-decoration: none;
-    color: white;
+    color: orange;
 }
 
 .App-header {
